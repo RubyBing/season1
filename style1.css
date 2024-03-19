@@ -1,0 +1,44 @@
+img{
+    width: 1650px;
+    left: 0px;
+    top: 100px;
+    position: absolute;
+}
+
+.header{
+    font-size: 50px;
+    width: 1600px;
+    margin: 0;
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 70px;
+    color: rgb(255, 255, 255);
+    background: rgb(240, 174, 116);
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    border-bottom: 1px solid rgb(255, 249, 202);
+}
+
+.header :hover{
+    font-size: 60px;
+    color: rgb(105, 67, 10);
+}
+
+.text{
+    size: 50px;
+    top: 330px;
+    left: 550px;
+    position: absolute;
+    width: 800px;
+    z-index: 1;
+}
+
+.text1{
+    left: 480px;
+    font-size: 30px;
+    top: 200px;
+    z-index: 2;
+    width: 400px;
+    position: absolute;
+}

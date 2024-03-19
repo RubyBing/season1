@@ -1,0 +1,393 @@
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    width: 10px;
+    margin-top: 30px;
+    color: rgb(255, 252, 166);
+}
+
+body{
+    background: rgb(205, 231, 246);
+    height:1000px;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    background: rgb(8, 8, 110);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    border-bottom: 1px solid rgb(255, 249, 202);
+}
+
+.header .text{
+    opacity:1;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    transform:none;
+}
+
+img{
+    width: 1600px;
+    height: auto;
+    margin: 0px;
+}
+
+.main-text{
+    position: relative;
+    width: 100%;
+}
+
+.picture1{
+    width: 350px;
+    top: 50px;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    transition: opacity 0.3s ease;
+}
+
+.text{
+    position: absolute;
+    font-size: 50px;
+    top: 130px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text:hover .picture1{
+    opacity: 0;
+}
+
+.main-text:hover .text{
+    opacity: 1;
+}
+
+.shu{
+    width: 1100px;
+    position: absolute;
+    left: 300px;
+    top: -50px;
+    z-index: 2;
+}
+
+.main-text1{
+    position: relative;
+    width: 100%;
+}
+
+.chun{
+    width: 500px;
+    top: 20px;
+    left: 180px;
+    height: auto;
+    margin: 0px;
+    position: absolute;
+    transition: opacity 0.3s ease;
+    z-index: 2;
+}
+
+.text1{
+    position: absolute;
+    font-size: 50px;
+    top: 200px;
+    left: 70px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text1:hover .chun{
+    opacity: 0;
+}
+
+.main-text1:hover .text1{
+    opacity: 1;
+}
+
+
+.main-text2{
+    position: relative;
+    width: 100%;
+}
+
+.xia{
+    width: 500px;
+    top: -45px;
+    left: 440px;
+    height: auto;
+    margin: 0px;
+    position: absolute;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+.text2{
+    position: absolute;
+    font-size: 50px;
+    top: -100px;
+    left: 500px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text2:hover .xia{
+    opacity: 0;
+}
+
+.main-text2:hover .text2{
+    opacity: 1;
+}
+
+
+.main-text3{
+    position: relative;
+    width: 100%;
+}
+
+.qiu{
+    width: 400px;
+    top: 30px;
+    left: 830px;
+    height: auto;
+    margin: 0px;
+    position: absolute;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+.text3{
+    position: absolute;
+    font-size: 50px;
+    top: -90px;
+    left: 900px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text3:hover .qiu{
+    opacity: 0;
+}
+
+.main-text3:hover .text3{
+    opacity: 1;
+}
+
+.main-text4{
+    position: relative;
+    width: 100%;
+}
+
+.dong{
+    width: 500px;
+    top: 225px;
+    left: 900px;
+    height: auto;
+    margin: 0px;
+    position: absolute;
+    z-index: 2;
+    transition: opacity 0.3s ease;
+}
+
+.text4{
+    position: absolute;
+    font-size: 50px;
+    top: 150px;
+    left: 1200px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text4:hover .dong{
+    opacity: 0;
+}
+
+.main-text4:hover .text4{
+    opacity: 1;
+}
+
+
+.main-text5{
+    position: relative;
+    width: 100%;
+}
+
+.chun1{
+    width: 1000px;
+    top: 600px;
+    left: -10px;
+    height: 300px;
+    margin: 0px;
+    position: absolute;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+.text5{
+    position: absolute;
+    font-size: 50px;
+    top: 900px;
+    left: 120px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text5:hover .chun1{
+    opacity: 0;
+}
+
+
+.main-text5:hover .text5{
+    opacity: 1;
+}
+
+.main-text6{
+    position: relative;
+    width: 100%;
+}
+
+.xia1{
+    width: 1000px;
+    top: 600px;
+    left: 520px;
+    height: 300px;
+    margin: 0px;
+    position: absolute;
+    z-index: 0;
+    transition: opacity 0.3s ease;
+}
+
+.text6{
+    position: absolute;
+    font-size: 50px;
+    top: 830px;
+    left: 1200px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text6:hover .xia1{
+    opacity: 0;
+}
+
+.main-text6:hover .text6{
+    opacity: 1;
+}
+
+
+.main-text7{
+    position: relative;
+    width: 100%;
+}
+
+.qiu1{
+    width: 1000px;
+    top: 400px;
+    left: -10px;
+    height: 500px;
+    margin: 0px;
+    position: absolute;
+    z-index: -1;
+    transition: opacity 0.3s ease;
+}
+
+.text7{
+    position: absolute;
+    font-size: 50px;
+    top: 550px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text7:hover .qiu1{
+    opacity: 0;
+}
+
+.main-text7:hover .text7{
+    opacity: 1;
+}
+
+.main-text8{
+    position: relative;
+    width: 100%;
+}
+
+.dong1{
+    width: 1000px;
+    top: 250px;
+    left: 620px;
+    height: 300px;
+    z-index: -2;
+    height: auto;
+    margin: 0px;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.text8{
+    position: absolute;
+    font-size: 50px;
+    top: 500px;
+    left: 1200px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text8:hover .dong1{
+    opacity: 0;
+}
+
+.main-text8:hover .text8{
+    opacity: 1;
+}
+
+.main-text0{
+    position: relative;
+    width: 100%;
+}
+
+.xiangyun{
+    width: 700px;
+    left: 820px;
+    top: -250px;
+    height: auto;
+    margin: 0px;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+
+.text0{
+    position: absolute;
+    font-size: 50px;
+    left: 1200px;
+    top: -90px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.main-text0:hover .xiangyun{
+    opacity: 0;
+}
+
+.main-text0:hover .text0{
+    opacity: 1;
+}
